@@ -511,7 +511,7 @@
       "celsius": [
         -18,
         -10,
-        -6,
+        null,
         -2
       ],
       "known_at": "2026-11-20"
@@ -1135,6 +1135,14 @@
       "quality": "完好",
       "received_at": "2026-11-23",
       "source": "约定回访"
+    },
+    {
+      "id": "F6",
+      "parcel_id": "PA6",
+      "opened_at": "2026-11-11T12:00:00+08:00",
+      "quality": "明显化冻",
+      "received_at": "2026-11-23",
+      "source": "主动反馈"
     }
   ],
   "promises": [
