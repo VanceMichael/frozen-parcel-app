@@ -1,0 +1,468 @@
+{
+  "type": [
+    "object"
+  ],
+  "properties": {
+    "claims": {
+      "type": [
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "properties": {
+          "finding": {
+            "type": [
+              "string"
+            ]
+          },
+          "id": {
+            "type": [
+              "string"
+            ]
+          },
+          "paid_fen": {
+            "type": [
+              "number"
+            ]
+          },
+          "parcel_id": {
+            "type": [
+              "string"
+            ]
+          },
+          "submitted_at": {
+            "type": [
+              "string"
+            ]
+          }
+        },
+        "required": [
+          "finding",
+          "id",
+          "paid_fen",
+          "parcel_id",
+          "submitted_at"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "feedback": {
+      "type": [
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "properties": {
+          "id": {
+            "type": [
+              "string"
+            ]
+          },
+          "opened_at": {
+            "type": [
+              "string"
+            ]
+          },
+          "parcel_id": {
+            "type": [
+              "string"
+            ]
+          },
+          "quality": {
+            "type": [
+              "string"
+            ]
+          },
+          "received_at": {
+            "type": [
+              "string"
+            ]
+          },
+          "source": {
+            "type": [
+              "string"
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "opened_at",
+          "parcel_id",
+          "quality",
+          "received_at",
+          "source"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "package_changes": {
+      "type": [
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "properties": {
+          "difference": {
+            "type": [
+              "string"
+            ]
+          },
+          "id": {
+            "type": [
+              "string"
+            ]
+          },
+          "known_at": {
+            "type": [
+              "string"
+            ]
+          },
+          "new": {
+            "type": [
+              "string"
+            ]
+          },
+          "old": {
+            "type": [
+              "string"
+            ]
+          }
+        },
+        "required": [
+          "difference",
+          "id",
+          "known_at",
+          "new",
+          "old"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "packages": {
+      "type": [
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "properties": {
+          "id": {
+            "type": [
+              "string"
+            ]
+          },
+          "materials": {
+            "type": [
+              "string"
+            ]
+          },
+          "seal": {
+            "type": [
+              "string"
+            ]
+          },
+          "version": {
+            "type": [
+              "string"
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "materials",
+          "seal",
+          "version"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "parcels": {
+      "type": [
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "properties": {
+          "household": {
+            "type": [
+              "string"
+            ]
+          },
+          "id": {
+            "type": [
+              "string"
+            ]
+          },
+          "package_id": {
+            "type": [
+              "string"
+            ]
+          },
+          "packed_at": {
+            "type": [
+              "string"
+            ]
+          },
+          "product_id": {
+            "type": [
+              "string"
+            ]
+          },
+          "returned": {
+            "type": [
+              "boolean"
+            ]
+          },
+          "route": {
+            "type": [
+              "string"
+            ]
+          },
+          "selection_probability": {
+            "type": [
+              "null",
+              "number"
+            ]
+          },
+          "signed_at": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "study": {
+            "type": [
+              "string"
+            ]
+          }
+        },
+        "required": [
+          "household",
+          "id",
+          "package_id",
+          "packed_at",
+          "product_id",
+          "returned",
+          "route",
+          "selection_probability",
+          "signed_at",
+          "study"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "products": {
+      "type": [
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "properties": {
+          "form": {
+            "type": [
+              "string"
+            ]
+          },
+          "id": {
+            "type": [
+              "string"
+            ]
+          }
+        },
+        "required": [
+          "form",
+          "id"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "promises": {
+      "type": [
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "properties": {
+          "compensation_fen": {
+            "type": [
+              "number"
+            ]
+          },
+          "covered_forms": {
+            "type": [
+              "array"
+            ],
+            "items": {
+              "type": [
+                "string"
+              ]
+            }
+          },
+          "id": {
+            "type": [
+              "string"
+            ]
+          },
+          "max_hours_after_sign": {
+            "type": [
+              "number"
+            ]
+          },
+          "parcel_id": {
+            "type": [
+              "string"
+            ]
+          },
+          "status": {
+            "type": [
+              "string"
+            ]
+          },
+          "version": {
+            "type": [
+              "string"
+            ]
+          }
+        },
+        "required": [
+          "compensation_fen",
+          "covered_forms",
+          "id",
+          "max_hours_after_sign",
+          "parcel_id",
+          "status",
+          "version"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "resources": {
+      "type": [
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "properties": {
+          "date": {
+            "type": [
+              "string"
+            ]
+          },
+          "freezer_slots": {
+            "type": [
+              "number"
+            ]
+          },
+          "id": {
+            "type": [
+              "string"
+            ]
+          },
+          "promised_trials": {
+            "type": [
+              "number"
+            ]
+          },
+          "reachable_openers": {
+            "type": [
+              "number"
+            ]
+          }
+        },
+        "required": [
+          "date",
+          "freezer_slots",
+          "id",
+          "promised_trials",
+          "reachable_openers"
+        ],
+        "additionalProperties": true
+      }
+    },
+    "temperatures": {
+      "type": [
+        "array"
+      ],
+      "items": {
+        "type": [
+          "object"
+        ],
+        "properties": {
+          "celsius": {
+            "type": [
+              "array"
+            ],
+            "items": {
+              "type": [
+                "null",
+                "number"
+              ]
+            }
+          },
+          "hours": {
+            "type": [
+              "array"
+            ],
+            "items": {
+              "type": [
+                "number"
+              ]
+            }
+          },
+          "id": {
+            "type": [
+              "string"
+            ]
+          },
+          "known_at": {
+            "type": [
+              "string"
+            ]
+          },
+          "parcel_id": {
+            "type": [
+              "string"
+            ]
+          }
+        },
+        "required": [
+          "celsius",
+          "hours",
+          "id",
+          "known_at",
+          "parcel_id"
+        ],
+        "additionalProperties": true
+      }
+    }
+  },
+  "required": [
+    "claims",
+    "feedback",
+    "package_changes",
+    "packages",
+    "parcels",
+    "products",
+    "promises",
+    "resources",
+    "temperatures"
+  ],
+  "additionalProperties": true,
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "冻货邮寄的质量期限与赔付准备合成资料格式"
+}

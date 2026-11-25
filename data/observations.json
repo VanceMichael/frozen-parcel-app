@@ -1,0 +1,1189 @@
+{
+  "products": [
+    {
+      "id": "P1",
+      "form": "整果冻梨"
+    },
+    {
+      "id": "P2",
+      "form": "瓶装冻梨汁"
+    },
+    {
+      "id": "P3",
+      "form": "冻柿子"
+    }
+  ],
+  "packages": [
+    {
+      "id": "B1",
+      "version": "v1",
+      "seal": "常规",
+      "materials": "合成保温材甲"
+    },
+    {
+      "id": "B2",
+      "version": "v2",
+      "seal": "加强",
+      "materials": "合成保温材甲"
+    }
+  ],
+  "parcels": [
+    {
+      "id": "PA1",
+      "household": "H1",
+      "product_id": "P2",
+      "package_id": "B1",
+      "packed_at": "2026-11-02T08:00:00+08:00",
+      "route": "北线",
+      "study": "销售",
+      "selection_probability": null,
+      "signed_at": "2026-11-05T18:00:00+08:00",
+      "returned": false
+    },
+    {
+      "id": "PA2",
+      "household": "H1",
+      "product_id": "P3",
+      "package_id": "B1",
+      "packed_at": "2026-11-03T08:00:00+08:00",
+      "route": "南线",
+      "study": "销售",
+      "selection_probability": null,
+      "signed_at": "2026-11-06T18:00:00+08:00",
+      "returned": false
+    },
+    {
+      "id": "PA3",
+      "household": "H2",
+      "product_id": "P1",
+      "package_id": "B1",
+      "packed_at": "2026-11-04T08:00:00+08:00",
+      "route": "北线",
+      "study": "销售",
+      "selection_probability": null,
+      "signed_at": "2026-11-07T18:00:00+08:00",
+      "returned": false
+    },
+    {
+      "id": "PA4",
+      "household": "H2",
+      "product_id": "P2",
+      "package_id": "B1",
+      "packed_at": "2026-11-05T08:00:00+08:00",
+      "route": "南线",
+      "study": "随机试寄",
+      "selection_probability": 0.2,
+      "signed_at": "2026-11-08T18:00:00+08:00",
+      "returned": false
+    },
+    {
+      "id": "PA5",
+      "household": "H3",
+      "product_id": "P3",
+      "package_id": "B1",
+      "packed_at": "2026-11-06T08:00:00+08:00",
+      "route": "北线",
+      "study": "销售",
+      "selection_probability": null,
+      "signed_at": "2026-11-09T18:00:00+08:00",
+      "returned": false
+    },
+    {
+      "id": "PA6",
+      "household": "H3",
+      "product_id": "P1",
+      "package_id": "B1",
+      "packed_at": "2026-11-07T08:00:00+08:00",
+      "route": "南线",
+      "study": "销售",
+      "selection_probability": null,
+      "signed_at": "2026-11-10T18:00:00+08:00",
+      "returned": false
+    },
+    {
+      "id": "PA7",
+      "household": "H4",
+      "product_id": "P2",
+      "package_id": "B1",
+      "packed_at": "2026-11-08T08:00:00+08:00",
+      "route": "北线",
+      "study": "销售",
+      "selection_probability": null,
+      "signed_at": null,
+      "returned": false
+    },
+    {
+      "id": "PA8",
+      "household": "H4",
+      "product_id": "P3",
+      "package_id": "B1",
+      "packed_at": "2026-11-09T08:00:00+08:00",
+      "route": "南线",
+      "study": "随机试寄",
+      "selection_probability": 0.2,
+      "signed_at": "2026-11-12T18:00:00+08:00",
+      "returned": false
+    },
+    {
+      "id": "PA9",
+      "household": "H5",
+      "product_id": "P1",
+      "package_id": "B1",
+      "packed_at": "2026-11-10T08:00:00+08:00",
+      "route": "北线",
+      "study": "销售",
+      "selection_probability": null,
+      "signed_at": "2026-11-13T18:00:00+08:00",
+      "returned": false
+    },
+    {
+      "id": "PA10",
+      "household": "H5",
+      "product_id": "P2",
+      "package_id": "B1",
+      "packed_at": "2026-11-01T08:00:00+08:00",
+      "route": "南线",
+      "study": "销售",
+      "selection_probability": null,
+      "signed_at": "2026-11-04T18:00:00+08:00",
+      "returned": false
+    },
+    {
+      "id": "PA11",
+      "household": "H6",
+      "product_id": "P3",
+      "package_id": "B1",
+      "packed_at": "2026-11-02T08:00:00+08:00",
+      "route": "北线",
+      "study": "销售",
+      "selection_probability": null,
+      "signed_at": "2026-11-05T18:00:00+08:00",
+      "returned": true
+    },
+    {
+      "id": "PA12",
+      "household": "H6",
+      "product_id": "P1",
+      "package_id": "B1",
+      "packed_at": "2026-11-03T08:00:00+08:00",
+      "route": "南线",
+      "study": "随机试寄",
+      "selection_probability": 0.2,
+      "signed_at": "2026-11-06T18:00:00+08:00",
+      "returned": false
+    },
+    {
+      "id": "PA13",
+      "household": "H7",
+      "product_id": "P2",
+      "package_id": "B1",
+      "packed_at": "2026-11-04T08:00:00+08:00",
+      "route": "北线",
+      "study": "销售",
+      "selection_probability": null,
+      "signed_at": "2026-11-07T18:00:00+08:00",
+      "returned": false
+    },
+    {
+      "id": "PA14",
+      "household": "H7",
+      "product_id": "P3",
+      "package_id": "B1",
+      "packed_at": "2026-11-05T08:00:00+08:00",
+      "route": "南线",
+      "study": "销售",
+      "selection_probability": null,
+      "signed_at": null,
+      "returned": false
+    },
+    {
+      "id": "PA15",
+      "household": "H8",
+      "product_id": "P1",
+      "package_id": "B1",
+      "packed_at": "2026-11-06T08:00:00+08:00",
+      "route": "北线",
+      "study": "销售",
+      "selection_probability": null,
+      "signed_at": "2026-11-09T18:00:00+08:00",
+      "returned": false
+    },
+    {
+      "id": "PA16",
+      "household": "H8",
+      "product_id": "P2",
+      "package_id": "B1",
+      "packed_at": "2026-11-07T08:00:00+08:00",
+      "route": "南线",
+      "study": "随机试寄",
+      "selection_probability": 0.2,
+      "signed_at": "2026-11-10T18:00:00+08:00",
+      "returned": false
+    },
+    {
+      "id": "PA17",
+      "household": "H9",
+      "product_id": "P3",
+      "package_id": "B2",
+      "packed_at": "2026-11-08T08:00:00+08:00",
+      "route": "北线",
+      "study": "销售",
+      "selection_probability": null,
+      "signed_at": "2026-11-11T18:00:00+08:00",
+      "returned": false
+    },
+    {
+      "id": "PA18",
+      "household": "H9",
+      "product_id": "P1",
+      "package_id": "B2",
+      "packed_at": "2026-11-09T08:00:00+08:00",
+      "route": "南线",
+      "study": "销售",
+      "selection_probability": null,
+      "signed_at": "2026-11-12T18:00:00+08:00",
+      "returned": false
+    },
+    {
+      "id": "PA19",
+      "household": "H10",
+      "product_id": "P2",
+      "package_id": "B2",
+      "packed_at": "2026-11-10T08:00:00+08:00",
+      "route": "北线",
+      "study": "销售",
+      "selection_probability": null,
+      "signed_at": "2026-11-13T18:00:00+08:00",
+      "returned": false
+    },
+    {
+      "id": "PA20",
+      "household": "H10",
+      "product_id": "P3",
+      "package_id": "B2",
+      "packed_at": "2026-11-01T08:00:00+08:00",
+      "route": "南线",
+      "study": "随机试寄",
+      "selection_probability": 0.2,
+      "signed_at": "2026-11-04T18:00:00+08:00",
+      "returned": false
+    },
+    {
+      "id": "PA21",
+      "household": "H11",
+      "product_id": "P1",
+      "package_id": "B2",
+      "packed_at": "2026-11-02T08:00:00+08:00",
+      "route": "北线",
+      "study": "销售",
+      "selection_probability": null,
+      "signed_at": null,
+      "returned": false
+    },
+    {
+      "id": "PA22",
+      "household": "H11",
+      "product_id": "P2",
+      "package_id": "B2",
+      "packed_at": "2026-11-03T08:00:00+08:00",
+      "route": "南线",
+      "study": "销售",
+      "selection_probability": null,
+      "signed_at": "2026-11-06T18:00:00+08:00",
+      "returned": true
+    },
+    {
+      "id": "PA23",
+      "household": "H12",
+      "product_id": "P3",
+      "package_id": "B2",
+      "packed_at": "2026-11-04T08:00:00+08:00",
+      "route": "北线",
+      "study": "销售",
+      "selection_probability": null,
+      "signed_at": "2026-11-07T18:00:00+08:00",
+      "returned": false
+    },
+    {
+      "id": "PA24",
+      "household": "H12",
+      "product_id": "P1",
+      "package_id": "B2",
+      "packed_at": "2026-11-05T08:00:00+08:00",
+      "route": "南线",
+      "study": "随机试寄",
+      "selection_probability": 0.2,
+      "signed_at": "2026-11-08T18:00:00+08:00",
+      "returned": false
+    },
+    {
+      "id": "PA25",
+      "household": "H13",
+      "product_id": "P2",
+      "package_id": "B2",
+      "packed_at": "2026-11-06T08:00:00+08:00",
+      "route": "北线",
+      "study": "销售",
+      "selection_probability": null,
+      "signed_at": "2026-11-09T18:00:00+08:00",
+      "returned": false
+    },
+    {
+      "id": "PA26",
+      "household": "H13",
+      "product_id": "P3",
+      "package_id": "B2",
+      "packed_at": "2026-11-07T08:00:00+08:00",
+      "route": "南线",
+      "study": "销售",
+      "selection_probability": null,
+      "signed_at": "2026-11-10T18:00:00+08:00",
+      "returned": false
+    },
+    {
+      "id": "PA27",
+      "household": "H14",
+      "product_id": "P1",
+      "package_id": "B2",
+      "packed_at": "2026-11-08T08:00:00+08:00",
+      "route": "北线",
+      "study": "销售",
+      "selection_probability": null,
+      "signed_at": "2026-11-11T18:00:00+08:00",
+      "returned": false
+    },
+    {
+      "id": "PA28",
+      "household": "H14",
+      "product_id": "P2",
+      "package_id": "B2",
+      "packed_at": "2026-11-09T08:00:00+08:00",
+      "route": "南线",
+      "study": "随机试寄",
+      "selection_probability": 0.2,
+      "signed_at": null,
+      "returned": false
+    },
+    {
+      "id": "PA29",
+      "household": "H15",
+      "product_id": "P3",
+      "package_id": "B2",
+      "packed_at": "2026-11-10T08:00:00+08:00",
+      "route": "北线",
+      "study": "销售",
+      "selection_probability": null,
+      "signed_at": "2026-11-13T18:00:00+08:00",
+      "returned": false
+    },
+    {
+      "id": "PA30",
+      "household": "H15",
+      "product_id": "P1",
+      "package_id": "B2",
+      "packed_at": "2026-11-01T08:00:00+08:00",
+      "route": "南线",
+      "study": "销售",
+      "selection_probability": null,
+      "signed_at": "2026-11-04T18:00:00+08:00",
+      "returned": false
+    },
+    {
+      "id": "PA31",
+      "household": "H16",
+      "product_id": "P2",
+      "package_id": "B2",
+      "packed_at": "2026-11-02T08:00:00+08:00",
+      "route": "北线",
+      "study": "销售",
+      "selection_probability": null,
+      "signed_at": "2026-11-05T18:00:00+08:00",
+      "returned": false
+    },
+    {
+      "id": "PA32",
+      "household": "H16",
+      "product_id": "P3",
+      "package_id": "B2",
+      "packed_at": "2026-11-03T08:00:00+08:00",
+      "route": "南线",
+      "study": "随机试寄",
+      "selection_probability": 0.2,
+      "signed_at": "2026-11-06T18:00:00+08:00",
+      "returned": false
+    }
+  ],
+  "temperatures": [
+    {
+      "id": "T1",
+      "parcel_id": "PA1",
+      "hours": [
+        0,
+        12,
+        24,
+        48
+      ],
+      "celsius": [
+        -18,
+        -10,
+        -6,
+        -2
+      ],
+      "known_at": "2026-11-20"
+    },
+    {
+      "id": "T2",
+      "parcel_id": "PA2",
+      "hours": [
+        0,
+        12,
+        24,
+        48
+      ],
+      "celsius": [
+        -18,
+        -10,
+        -6,
+        -2
+      ],
+      "known_at": "2026-11-20"
+    },
+    {
+      "id": "T3",
+      "parcel_id": "PA3",
+      "hours": [
+        0,
+        12,
+        24,
+        48
+      ],
+      "celsius": [
+        -18,
+        -10,
+        -6,
+        -2
+      ],
+      "known_at": "2026-11-20"
+    },
+    {
+      "id": "T4",
+      "parcel_id": "PA4",
+      "hours": [
+        0,
+        12,
+        24,
+        48
+      ],
+      "celsius": [
+        -18,
+        -10,
+        -6,
+        -2
+      ],
+      "known_at": "2026-11-20"
+    },
+    {
+      "id": "T5",
+      "parcel_id": "PA5",
+      "hours": [
+        0,
+        12,
+        24,
+        48
+      ],
+      "celsius": [
+        -18,
+        -10,
+        null,
+        -2
+      ],
+      "known_at": "2026-11-20"
+    },
+    {
+      "id": "T6",
+      "parcel_id": "PA6",
+      "hours": [
+        0,
+        12,
+        24,
+        48
+      ],
+      "celsius": [
+        -18,
+        -10,
+        -6,
+        -2
+      ],
+      "known_at": "2026-11-20"
+    },
+    {
+      "id": "T7",
+      "parcel_id": "PA7",
+      "hours": [
+        0,
+        12,
+        24,
+        48
+      ],
+      "celsius": [
+        -18,
+        -10,
+        -6,
+        -2
+      ],
+      "known_at": "2026-11-20"
+    },
+    {
+      "id": "T8",
+      "parcel_id": "PA8",
+      "hours": [
+        0,
+        12,
+        24,
+        48
+      ],
+      "celsius": [
+        -18,
+        -10,
+        -6,
+        -2
+      ],
+      "known_at": "2026-11-20"
+    },
+    {
+      "id": "T9",
+      "parcel_id": "PA9",
+      "hours": [
+        0,
+        12,
+        24,
+        48
+      ],
+      "celsius": [
+        -18,
+        -10,
+        -6,
+        -2
+      ],
+      "known_at": "2026-11-20"
+    },
+    {
+      "id": "T10",
+      "parcel_id": "PA10",
+      "hours": [
+        0,
+        12,
+        24,
+        48
+      ],
+      "celsius": [
+        -18,
+        -10,
+        null,
+        -2
+      ],
+      "known_at": "2026-11-20"
+    },
+    {
+      "id": "T11",
+      "parcel_id": "PA11",
+      "hours": [
+        0,
+        12,
+        24,
+        48
+      ],
+      "celsius": [
+        -18,
+        -10,
+        -6,
+        -2
+      ],
+      "known_at": "2026-11-20"
+    },
+    {
+      "id": "T12",
+      "parcel_id": "PA12",
+      "hours": [
+        0,
+        12,
+        24,
+        48
+      ],
+      "celsius": [
+        -18,
+        -10,
+        -6,
+        -2
+      ],
+      "known_at": "2026-11-20"
+    },
+    {
+      "id": "T13",
+      "parcel_id": "PA13",
+      "hours": [
+        0,
+        12,
+        24,
+        48
+      ],
+      "celsius": [
+        -18,
+        -10,
+        -6,
+        -2
+      ],
+      "known_at": "2026-11-20"
+    },
+    {
+      "id": "T14",
+      "parcel_id": "PA14",
+      "hours": [
+        0,
+        12,
+        24,
+        48
+      ],
+      "celsius": [
+        -18,
+        -10,
+        -6,
+        -2
+      ],
+      "known_at": "2026-11-20"
+    },
+    {
+      "id": "T15",
+      "parcel_id": "PA15",
+      "hours": [
+        0,
+        12,
+        24,
+        48
+      ],
+      "celsius": [
+        -18,
+        -10,
+        null,
+        -2
+      ],
+      "known_at": "2026-11-20"
+    },
+    {
+      "id": "T16",
+      "parcel_id": "PA16",
+      "hours": [
+        0,
+        12,
+        24,
+        48
+      ],
+      "celsius": [
+        -18,
+        -10,
+        -6,
+        -2
+      ],
+      "known_at": "2026-11-20"
+    },
+    {
+      "id": "T17",
+      "parcel_id": "PA17",
+      "hours": [
+        0,
+        12,
+        24,
+        48
+      ],
+      "celsius": [
+        -18,
+        -10,
+        -6,
+        -2
+      ],
+      "known_at": "2026-11-20"
+    },
+    {
+      "id": "T18",
+      "parcel_id": "PA18",
+      "hours": [
+        0,
+        12,
+        24,
+        48
+      ],
+      "celsius": [
+        -18,
+        -10,
+        -6,
+        -2
+      ],
+      "known_at": "2026-11-20"
+    },
+    {
+      "id": "T19",
+      "parcel_id": "PA19",
+      "hours": [
+        0,
+        12,
+        24,
+        48
+      ],
+      "celsius": [
+        -18,
+        -10,
+        -6,
+        -2
+      ],
+      "known_at": "2026-11-20"
+    },
+    {
+      "id": "T20",
+      "parcel_id": "PA20",
+      "hours": [
+        0,
+        12,
+        24,
+        48
+      ],
+      "celsius": [
+        -18,
+        -10,
+        null,
+        -2
+      ],
+      "known_at": "2026-11-20"
+    },
+    {
+      "id": "T21",
+      "parcel_id": "PA21",
+      "hours": [
+        0,
+        12,
+        24,
+        48
+      ],
+      "celsius": [
+        -18,
+        -10,
+        -6,
+        -2
+      ],
+      "known_at": "2026-11-20"
+    },
+    {
+      "id": "T22",
+      "parcel_id": "PA22",
+      "hours": [
+        0,
+        12,
+        24,
+        48
+      ],
+      "celsius": [
+        -18,
+        -10,
+        -6,
+        -2
+      ],
+      "known_at": "2026-11-20"
+    },
+    {
+      "id": "T23",
+      "parcel_id": "PA23",
+      "hours": [
+        0,
+        12,
+        24,
+        48
+      ],
+      "celsius": [
+        -18,
+        -10,
+        -6,
+        -2
+      ],
+      "known_at": "2026-11-20"
+    },
+    {
+      "id": "T24",
+      "parcel_id": "PA24",
+      "hours": [
+        0,
+        12,
+        24,
+        48
+      ],
+      "celsius": [
+        -18,
+        -10,
+        -6,
+        -2
+      ],
+      "known_at": "2026-11-20"
+    },
+    {
+      "id": "T25",
+      "parcel_id": "PA25",
+      "hours": [
+        0,
+        12,
+        24,
+        48
+      ],
+      "celsius": [
+        -18,
+        -10,
+        null,
+        -2
+      ],
+      "known_at": "2026-11-20"
+    },
+    {
+      "id": "T26",
+      "parcel_id": "PA26",
+      "hours": [
+        0,
+        12,
+        24,
+        48
+      ],
+      "celsius": [
+        -18,
+        -10,
+        -6,
+        -2
+      ],
+      "known_at": "2026-11-20"
+    },
+    {
+      "id": "T27",
+      "parcel_id": "PA27",
+      "hours": [
+        0,
+        12,
+        24,
+        48
+      ],
+      "celsius": [
+        -18,
+        -10,
+        -6,
+        -2
+      ],
+      "known_at": "2026-11-20"
+    },
+    {
+      "id": "T28",
+      "parcel_id": "PA28",
+      "hours": [
+        0,
+        12,
+        24,
+        48
+      ],
+      "celsius": [
+        -18,
+        -10,
+        -6,
+        -2
+      ],
+      "known_at": "2026-11-20"
+    },
+    {
+      "id": "T29",
+      "parcel_id": "PA29",
+      "hours": [
+        0,
+        12,
+        24,
+        48
+      ],
+      "celsius": [
+        -18,
+        -10,
+        -6,
+        -2
+      ],
+      "known_at": "2026-11-20"
+    },
+    {
+      "id": "T30",
+      "parcel_id": "PA30",
+      "hours": [
+        0,
+        12,
+        24,
+        48
+      ],
+      "celsius": [
+        -18,
+        -10,
+        null,
+        -2
+      ],
+      "known_at": "2026-11-20"
+    },
+    {
+      "id": "T31",
+      "parcel_id": "PA31",
+      "hours": [
+        0,
+        12,
+        24,
+        48
+      ],
+      "celsius": [
+        -18,
+        -10,
+        -6,
+        -2
+      ],
+      "known_at": "2026-11-20"
+    },
+    {
+      "id": "T32",
+      "parcel_id": "PA32",
+      "hours": [
+        0,
+        12,
+        24,
+        48
+      ],
+      "celsius": [
+        -18,
+        -10,
+        -6,
+        -2
+      ],
+      "known_at": "2026-11-20"
+    }
+  ],
+  "feedback": [
+    {
+      "id": "F1",
+      "parcel_id": "PA1",
+      "opened_at": "2026-11-06T12:00:00+08:00",
+      "quality": "完好",
+      "received_at": "2026-11-23",
+      "source": "主动反馈"
+    },
+    {
+      "id": "F2",
+      "parcel_id": "PA2",
+      "opened_at": "2026-11-07T12:00:00+08:00",
+      "quality": "完好",
+      "received_at": "2026-11-23",
+      "source": "主动反馈"
+    },
+    {
+      "id": "F4",
+      "parcel_id": "PA4",
+      "opened_at": "2026-11-09T12:00:00+08:00",
+      "quality": "完好",
+      "received_at": "2026-11-23",
+      "source": "约定回访"
+    },
+    {
+      "id": "F5",
+      "parcel_id": "PA5",
+      "opened_at": "2026-11-10T12:00:00+08:00",
+      "quality": "完好",
+      "received_at": "2026-11-23",
+      "source": "主动反馈"
+    },
+    {
+      "id": "F7",
+      "parcel_id": "PA7",
+      "opened_at": "2026-11-12T12:00:00+08:00",
+      "quality": "完好",
+      "received_at": "2026-11-23",
+      "source": "主动反馈"
+    },
+    {
+      "id": "F8",
+      "parcel_id": "PA8",
+      "opened_at": "2026-11-13T12:00:00+08:00",
+      "quality": "完好",
+      "received_at": "2026-11-23",
+      "source": "约定回访"
+    },
+    {
+      "id": "F10",
+      "parcel_id": "PA10",
+      "opened_at": "2026-11-05T12:00:00+08:00",
+      "quality": "完好",
+      "received_at": "2026-11-23",
+      "source": "主动反馈"
+    },
+    {
+      "id": "F11",
+      "parcel_id": "PA11",
+      "opened_at": "2026-11-06T12:00:00+08:00",
+      "quality": "完好",
+      "received_at": "2026-11-23",
+      "source": "主动反馈"
+    },
+    {
+      "id": "F13",
+      "parcel_id": "PA13",
+      "opened_at": "2026-11-08T12:00:00+08:00",
+      "quality": "完好",
+      "received_at": "2026-11-23",
+      "source": "主动反馈"
+    },
+    {
+      "id": "F14",
+      "parcel_id": "PA14",
+      "opened_at": "2026-11-09T12:00:00+08:00",
+      "quality": "完好",
+      "received_at": "2026-11-23",
+      "source": "主动反馈"
+    },
+    {
+      "id": "F16",
+      "parcel_id": "PA16",
+      "opened_at": "2026-11-11T12:00:00+08:00",
+      "quality": "完好",
+      "received_at": "2026-11-23",
+      "source": "约定回访"
+    },
+    {
+      "id": "F17",
+      "parcel_id": "PA17",
+      "opened_at": "2026-11-12T12:00:00+08:00",
+      "quality": "完好",
+      "received_at": "2026-11-23",
+      "source": "主动反馈"
+    },
+    {
+      "id": "F19",
+      "parcel_id": "PA19",
+      "opened_at": "2026-11-14T12:00:00+08:00",
+      "quality": "完好",
+      "received_at": "2026-11-23",
+      "source": "主动反馈"
+    },
+    {
+      "id": "F20",
+      "parcel_id": "PA20",
+      "opened_at": "2026-11-05T12:00:00+08:00",
+      "quality": "完好",
+      "received_at": "2026-11-23",
+      "source": "约定回访"
+    },
+    {
+      "id": "F22",
+      "parcel_id": "PA22",
+      "opened_at": "2026-11-07T12:00:00+08:00",
+      "quality": "完好",
+      "received_at": "2026-11-23",
+      "source": "主动反馈"
+    },
+    {
+      "id": "F23",
+      "parcel_id": "PA23",
+      "opened_at": "2026-11-08T12:00:00+08:00",
+      "quality": "完好",
+      "received_at": "2026-11-23",
+      "source": "主动反馈"
+    },
+    {
+      "id": "F25",
+      "parcel_id": "PA25",
+      "opened_at": "2026-11-10T12:00:00+08:00",
+      "quality": "完好",
+      "received_at": "2026-11-23",
+      "source": "主动反馈"
+    },
+    {
+      "id": "F26",
+      "parcel_id": "PA26",
+      "opened_at": "2026-11-11T12:00:00+08:00",
+      "quality": "完好",
+      "received_at": "2026-11-23",
+      "source": "主动反馈"
+    },
+    {
+      "id": "F28",
+      "parcel_id": "PA28",
+      "opened_at": "2026-11-13T12:00:00+08:00",
+      "quality": "完好",
+      "received_at": "2026-11-23",
+      "source": "约定回访"
+    },
+    {
+      "id": "F29",
+      "parcel_id": "PA29",
+      "opened_at": "2026-11-14T12:00:00+08:00",
+      "quality": "完好",
+      "received_at": "2026-11-23",
+      "source": "主动反馈"
+    },
+    {
+      "id": "F31",
+      "parcel_id": "PA31",
+      "opened_at": "2026-11-06T12:00:00+08:00",
+      "quality": "完好",
+      "received_at": "2026-11-23",
+      "source": "主动反馈"
+    },
+    {
+      "id": "F32",
+      "parcel_id": "PA32",
+      "opened_at": "2026-11-07T12:00:00+08:00",
+      "quality": "完好",
+      "received_at": "2026-11-23",
+      "source": "约定回访"
+    }
+  ],
+  "promises": [
+    {
+      "id": "PR1",
+      "parcel_id": "PA6",
+      "version": "2026秋",
+      "max_hours_after_sign": 12,
+      "covered_forms": [
+        "整果冻梨",
+        "瓶装冻梨汁",
+        "冻柿子"
+      ],
+      "compensation_fen": 3000,
+      "status": "已确认"
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "parcel_id": "PA6",
+      "submitted_at": "2026-11-22",
+      "finding": "待核实",
+      "paid_fen": 0
+    },
+    {
+      "id": "C2",
+      "parcel_id": "PA12",
+      "submitted_at": "2026-11-21",
+      "finding": "已补偿",
+      "paid_fen": 3000
+    }
+  ],
+  "resources": [
+    {
+      "id": "R1",
+      "date": "2026-11-26",
+      "freezer_slots": 4,
+      "promised_trials": 2,
+      "reachable_openers": 3
+    }
+  ],
+  "package_changes": [
+    {
+      "id": "CH1",
+      "old": "B1",
+      "new": "B2",
+      "difference": "仅封口加强",
+      "known_at": "2026-11-15"
+    }
+  ]
+}
